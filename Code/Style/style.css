@@ -380,6 +380,13 @@ button {
     width: 80%;
     height: auto;
   }
+  .buttonHero {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
 }
 
 
@@ -1191,7 +1198,7 @@ padding: 50px 0 50px 0;
   border-width: 3px;
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 1000px) {
   .container {
     width: 100%;
   }
@@ -1203,6 +1210,13 @@ padding: 50px 0 50px 0;
   .cards {
     flex-direction: column;
     width: auto;
+  }
+
+  .cards .project {
+    width: 50%;
+    height: auto;
+    margin: 0;
+    padding: 0;
   }
 }
 
