@@ -560,7 +560,7 @@ button {
     width: 80%;
     height: auto;
   }
-  .about-text{
+  .about-text {
     text-align: center;
     width: 100%;
   }
@@ -1130,9 +1130,6 @@ padding: 50px 0 50px 0;
   height: 30px;
 }
 
-
-
-
 .cards {
   padding-top: 20px;
   display: flex;
@@ -1223,72 +1220,6 @@ padding: 50px 0 50px 0;
 
 
 
-/* 
-.container-portfolio {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-
-  padding: 10px 0 10px 0;
-}
-.portfolio-header {
-  justify-content: center;
-  align-items: center;
-  padding: 10px 0 10px 0;
-}
-.portfolio-header h1 {
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 24px;
-  color: white;
-}
-.portfolio-header h1 span {
-  color: #FDC101;
-}
-.portfolio-header p {
-  text-align: center;
-  font-weight: 700;
-  font-size: 32px;
-  color: white;
-}
-.portfolio-header p span {
-  color: #FDC101;
-  font-weight: 800;
-}
-
-.container-portfolio-item {
-  display: flex;
-  justify-content: center;
-  padding: 20px 0 40px 0;
-  flex-wrap: wrap;
-}
-
-.portfolio-item {
-  width: 300px;
-  height: 300px;
-  border-radius: 14px;
-  padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s;
-  margin: 0 30px 30px 30px;
-}
-
-.portfolio-item img {
-  width: 300px;
-  height: 300px;
-  border-radius: 14px;
-}
-
-.portfolio-item:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-} */
-
-
-
-
-
 
 /* price page */
 
@@ -1343,8 +1274,8 @@ padding: 50px 0 50px 0;
   height: auto;
   border-radius: 14px;
   padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-  background-color: #2f3742;  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #2f3742; 
   margin: 0 20px 0 20px;
   transition: 0.8s;
   margin-top: 20px;
@@ -1439,7 +1370,6 @@ padding: 50px 0 50px 0;
 
 .contact_box_left_Image img {
   width: 350px;
-  margin-top: 15px;
   height: auto;
   border-radius: 16px;
 }
@@ -1569,6 +1499,9 @@ padding: 50px 0 50px 0;
     flex-direction: column;
     align-items: center;
   }
+  
+
+  
   .contact_box_left, .contact_box_right {
     width: 90%;
     height: auto;
@@ -1576,6 +1509,13 @@ padding: 50px 0 50px 0;
   }
   .contact_box_right {
    padding-top: 50px ;
+  }
+
+  .contact_box_left_Image img {
+    width: 100%;
+    max-width: 400px;
+    padding-top: 10px;
+    height: auto;
   }
 }
 
