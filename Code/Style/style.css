@@ -218,9 +218,6 @@ body {
   align-items: center;
   height: fit-content;
   flex-direction: row;
-
-
-
 }
 
 .left-column, .right-column {
